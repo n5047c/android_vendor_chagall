@@ -1,4 +1,4 @@
-android_vendor_asus_tf300t
-==========================
+android_vendor_pegatron_chagall
+===============================
 
-TF300T Proprietary Files
+Chagall Proprietary Files
