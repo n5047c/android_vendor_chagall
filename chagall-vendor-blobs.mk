@@ -22,16 +22,26 @@
 #    vendor/pegatron/chagall/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_COPY_FILES += \
-    vendor/pegatron/chagall/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
-    vendor/pegatron/chagall/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/pegatron/chagall/proprietary/bin/glgps:system/bin/glgps \
+    vendor/pegatron/chagall/proprietary/bin/sensors-config:system/bin/sensors-config \
+    vendor/pegatron/chagall/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+    vendor/pegatron/chagall/proprietary/etc/acc_led:system/etc/acc_led \
+    vendor/pegatron/chagall/proprietary/etc/acc_ptr:system/etc/acc_ptr \
     vendor/pegatron/chagall/proprietary/etc/asound.conf:system/etc/asound.conf \
+    vendor/pegatron/chagall/proprietary/etc/buttons:system/etc/buttons \
     vendor/pegatron/chagall/proprietary/etc/dbus.conf:system/etc/dbus.conf \
+    vendor/pegatron/chagall/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/pegatron/chagall/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    vendor/pegatron/chagall/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
+    vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
-    vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
-    vendor/pegatron/chagall/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    vendor/pegatron/chagall/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
+    vendor/pegatron/chagall/proprietary/etc/gamepad:system/etc/gamepad \
+    vendor/pegatron/chagall/proprietary/etc/ir_ptr:system/etc/ir_ptr \
+    vendor/pegatron/chagall/proprietary/etc/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
+    vendor/pegatron/chagall/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
+    vendor/pegatron/chagall/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \
     vendor/pegatron/chagall/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/pegatron/chagall/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
@@ -47,18 +57,17 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
-    vendor/pegatron/chagall/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+    vendor/pegatron/chagall/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
+    vendor/pegatron/chagall/proprietary/lib/hw/gpsinternal.tegra.so:system/lib/hw/gpsinternal.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/lights.chagall.so:system/lib/hw/lights.chagall.so \
-    vendor/pegatron/chagall/proprietary/lib/hw/nfc.tegra.so:system/lib/hw/nfc.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/sensors.chagall.so:system/lib/hw/sensors.chagall.so \
     vendor/pegatron/chagall/proprietary/lib/libami.so:system/lib/libami.so \
     vendor/pegatron/chagall/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/pegatron/chagall/proprietary/lib/libatok-fujitsu-ime.so:system/lib/libatok-fujitsu-ime.so \
     vendor/pegatron/chagall/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/pegatron/chagall/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
-    vendor/pegatron/chagall/proprietary/lib/libEGL.so:system/lib/libEGL.so \
     vendor/pegatron/chagall/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/pegatron/chagall/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/pegatron/chagall/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
@@ -114,15 +123,11 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/pegatron/chagall/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/pegatron/chagall/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/pegatron/chagall/proprietary/lib/liborion_gingerbread.so:system/lib/liborion_gingerbread.so \
-    vendor/pegatron/chagall/proprietary/lib/liborion_honeycomb.so:system/lib/liborion_honeycomb.so \
-    vendor/pegatron/chagall/proprietary/lib/liborion_ics.so:system/lib/liborion_ics.so \
-    vendor/pegatron/chagall/proprietary/lib/liborion.so:system/lib/liborion.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
-    vendor/pegatron/chagall/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
+    vendor/pegatron/chagall/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/pegatron/chagall/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
@@ -140,4 +145,22 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+    vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd.bin:system/vendor/firmware/bcm4329/fw_bcmdhd.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd.bin:system/vendor/firmware/bcm4330/fw_bcmdhd.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/pegatron/chagall/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
+    vendor/pegatron/chagall/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/pegatron/chagall/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/pegatron/chagall/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/pegatron/chagall/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin \
+    vendor/pegatron/chagall/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N/full_model.bin
