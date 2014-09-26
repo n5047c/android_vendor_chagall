@@ -22,7 +22,9 @@
 #    vendor/pegatron/chagall/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_COPY_FILES += \
+    vendor/pegatron/chagall/proprietary/bin/frandom_init.sh:system/bin/frandom_init.sh \
     vendor/pegatron/chagall/proprietary/bin/glgps:system/bin/glgps \
+    vendor/pegatron/chagall/proprietary/bin/rild:system/bin/rild \
     vendor/pegatron/chagall/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/pegatron/chagall/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/pegatron/chagall/proprietary/etc/acc_led:system/etc/acc_led \
@@ -146,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
+    vendor/pegatron/chagall/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd.bin:system/vendor/firmware/bcm4329/fw_bcmdhd.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
