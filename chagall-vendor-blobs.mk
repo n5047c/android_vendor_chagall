@@ -22,6 +22,7 @@
 #    vendor/pegatron/chagall/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
 
 PRODUCT_COPY_FILES += \
+    vendor/pegatron/chagall/proprietary/bin/ce1502Loader:system/bin/ce1502Loader \
     vendor/pegatron/chagall/proprietary/bin/frandom_init.sh:system/bin/frandom_init.sh \
     vendor/pegatron/chagall/proprietary/bin/glgps:system/bin/glgps \
     vendor/pegatron/chagall/proprietary/bin/rild:system/bin/rild \
