@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libavformat.so:system/lib/libavformat.so \
     vendor/pegatron/chagall/proprietary/lib/libavutil.so:system/lib/libavutil.so \
     vendor/pegatron/chagall/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+    vendor/pegatron/chagall/proprietary/lib/libemoji.so:system/lib/libemoji.so \
     vendor/pegatron/chagall/proprietary/lib/libffmpeg_utils.so:system/lib/libffmpeg_utils.so \
     vendor/pegatron/chagall/proprietary/lib/libhuawei-ril.so:system/lib/libhuawei-ril.so \
     vendor/pegatron/chagall/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
