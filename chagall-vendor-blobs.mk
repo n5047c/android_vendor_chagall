@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/pegatron/chagall/proprietary/etc/acc_led:system/etc/acc_led \
     vendor/pegatron/chagall/proprietary/etc/acc_ptr:system/etc/acc_ptr \
+    vendor/pegatron/chagall/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/pegatron/chagall/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/pegatron/chagall/proprietary/etc/buttons:system/etc/buttons \
     vendor/pegatron/chagall/proprietary/etc/dbus.conf:system/etc/dbus.conf \
@@ -41,10 +42,14 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/pegatron/chagall/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/pegatron/chagall/proprietary/etc/gamepad:system/etc/gamepad \
+    vendor/pegatron/chagall/proprietary/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/pegatron/chagall/proprietary/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/pegatron/chagall/proprietary/etc/ir_ptr:system/etc/ir_ptr \
     vendor/pegatron/chagall/proprietary/etc/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
     vendor/pegatron/chagall/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
+    vendor/pegatron/chagall/proprietary/etc/ssh/sshd_config:system/etc/ssh/sshd_config \
     vendor/pegatron/chagall/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \
+    vendor/pegatron/chagall/proprietary/etc/vimrc:system/etc/vimrc \
     vendor/pegatron/chagall/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/pegatron/chagall/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
@@ -62,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/gpsinternal.tegra.so:system/lib/hw/gpsinternal.tegra.so \
+    vendor/pegatron/chagall/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/lights.chagall.so:system/lib/hw/lights.chagall.so \
