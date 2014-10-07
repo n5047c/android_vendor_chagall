@@ -77,12 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/pegatron/chagall/proprietary/lib/libatok-fujitsu-ime.so:system/lib/libatok-fujitsu-ime.so \
     vendor/pegatron/chagall/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
-    vendor/pegatron/chagall/proprietary/lib/libavcodec.so:system/lib/libavcodec.so \
-    vendor/pegatron/chagall/proprietary/lib/libavformat.so:system/lib/libavformat.so \
-    vendor/pegatron/chagall/proprietary/lib/libavutil.so:system/lib/libavutil.so \
     vendor/pegatron/chagall/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
-    vendor/pegatron/chagall/proprietary/lib/libemoji.so:system/lib/libemoji.so \
-    vendor/pegatron/chagall/proprietary/lib/libffmpeg_utils.so:system/lib/libffmpeg_utils.so \
     vendor/pegatron/chagall/proprietary/lib/libhuawei-ril.so:system/lib/libhuawei-ril.so \
     vendor/pegatron/chagall/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/pegatron/chagall/proprietary/lib/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
@@ -157,18 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
-    vendor/pegatron/chagall/proprietary/lib/libssh.so:system/lib/libssh.so \
     vendor/pegatron/chagall/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/pegatron/chagall/proprietary/lib/libstagefright_soft_ffmpegadec.so:system/lib/libstagefright_soft_ffmpegadec.so \
-    vendor/pegatron/chagall/proprietary/lib/libstagefright_soft_ffmpegvdec.so:system/lib/libstagefright_soft_ffmpegvdec.so \
-    vendor/pegatron/chagall/proprietary/lib/libswresample.so:system/lib/libswresample.so \
-    vendor/pegatron/chagall/proprietary/lib/libswscale.so:system/lib/libswscale.so \
-    vendor/pegatron/chagall/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/pegatron/chagall/proprietary/lib/libvideoeditor_core.so:system/lib/libvideoeditor_core.so \
-    vendor/pegatron/chagall/proprietary/lib/libvideoeditor_jni.so:system/lib/libvideoeditor_jni.so \
-    vendor/pegatron/chagall/proprietary/lib/libvideoeditor_osal.so:system/lib/libvideoeditor_osal.so \
-    vendor/pegatron/chagall/proprietary/lib/libvideoeditorplayer.so:system/lib/libvideoeditorplayer.so \
-    vendor/pegatron/chagall/proprietary/lib/libvideoeditor_videofilters.so:system/lib/libvideoeditor_videofilters.so \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -192,8 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd.bin:system/vendor/firmware/bcm4330/fw_bcmdhd.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_p2p.bin \
-    vendor/pegatron/chagall/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/pegatron/chagall/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/pegatron/chagall/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/pegatron/chagall/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/pegatron/chagall/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
