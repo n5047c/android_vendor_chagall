@@ -47,11 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/etc/ir_ptr:system/etc/ir_ptr \
     vendor/pegatron/chagall/proprietary/etc/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
     vendor/pegatron/chagall/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
-    vendor/pegatron/chagall/proprietary/etc/ssh/sshd_config:system/etc/ssh/sshd_config \
     vendor/pegatron/chagall/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \
-    vendor/pegatron/chagall/proprietary/etc/vimrc:system/etc/vimrc \
-    vendor/pegatron/chagall/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/pegatron/chagall/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
@@ -85,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libmlplatform3050.so:system/lib/libmlplatform3050.so \
     vendor/pegatron/chagall/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/pegatron/chagall/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    vendor/pegatron/chagall/proprietary/lib/libnamparser.so:system/lib/libnamparser.so \
     vendor/pegatron/chagall/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/pegatron/chagall/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
     vendor/pegatron/chagall/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
@@ -165,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
-    vendor/pegatron/chagall/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4329/fw_bcmdhd_apsta.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4329/fw_bcmdhd.bin:system/vendor/firmware/bcm4329/fw_bcmdhd.bin \
     vendor/pegatron/chagall/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
