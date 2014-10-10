@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/pegatron/chagall/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
