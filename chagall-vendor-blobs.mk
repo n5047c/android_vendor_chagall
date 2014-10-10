@@ -52,14 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/etc/vimrc:system/etc/vimrc \
     vendor/pegatron/chagall/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/pegatron/chagall/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/pegatron/chagall/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/pegatron/chagall/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/pegatron/chagall/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/pegatron/chagall/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/pegatron/chagall/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
@@ -75,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libakmd.so:system/lib/libakmd.so \
     vendor/pegatron/chagall/proprietary/lib/libami.so:system/lib/libami.so \
     vendor/pegatron/chagall/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
-    vendor/pegatron/chagall/proprietary/lib/libatok-fujitsu-ime.so:system/lib/libatok-fujitsu-ime.so \
     vendor/pegatron/chagall/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/pegatron/chagall/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/pegatron/chagall/proprietary/lib/libhuawei-ril.so:system/lib/libhuawei-ril.so \
@@ -150,7 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
-    vendor/pegatron/chagall/proprietary/lib/libsensors.mpl3050.so:system/lib/libsensors.mpl3050.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/pegatron/chagall/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
