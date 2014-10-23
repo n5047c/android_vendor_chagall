@@ -138,8 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/pegatron/chagall/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/pegatron/chagall/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
-    vendor/pegatron/chagall/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
-    vendor/pegatron/chagall/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
     vendor/pegatron/chagall/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/pegatron/chagall/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
