@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/pegatron/chagall/proprietary/lib/libjniinterface.so:system/lib/libjniinterface.so \
     vendor/pegatron/chagall/proprietary/lib/libjni_nvremoteprotopkg.so:system/lib/libjni_nvremoteprotopkg.so \
     vendor/pegatron/chagall/proprietary/lib/libjni_nvremote.so:system/lib/libjni_nvremote.so \
+    vendor/pegatron/chagall/proprietary/lib/libjpg1.so:system/lib/libjpg1.so \
     vendor/pegatron/chagall/proprietary/lib/libmllite3050.so:system/lib/libmllite3050.so \
     vendor/pegatron/chagall/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/pegatron/chagall/proprietary/lib/libmlplatform3050.so:system/lib/libmlplatform3050.so \
